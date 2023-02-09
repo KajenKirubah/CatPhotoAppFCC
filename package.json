@@ -1,0 +1,25 @@
+{
+  "name": "catphotoappfcc",
+  "version": "1.0.0",
+  "description": "using webpack and mobile responsiveness on a simple website from free code camp.  This project is meant to help improve my workflow process.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KajenKirubah/CatPhotoAppFCC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KajenKirubah/CatPhotoAppFCC/issues"
+  },
+  "homepage": "https://github.com/KajenKirubah/CatPhotoAppFCC#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
