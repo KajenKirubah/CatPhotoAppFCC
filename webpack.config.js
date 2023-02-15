@@ -32,10 +32,12 @@ module.exports = {
     ],
   },
   mode: "development",
+  
   devServer: {
     static: {
-      directory: path.resolve(__dirname, "docs"),
+      directory: path.resolve(__dirname, "app"),
     },
+    watchFiles: ['./app/**/*.html'],
     hot: true,
     port: 3000,
     host: "0.0.0.0",
